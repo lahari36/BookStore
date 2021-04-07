@@ -25,8 +25,8 @@ app.use("/user",userApiObj);
 app.use("/books",booksApiObj)
 app.use("/cart",cartApiObj)
 app.use("/admin",adminApiObj)
-app.use("/wishlist",wishlistApiObj)
-app.use("/order",orderApiObj)
+app.use("/wishlist",wishlistApiObj )
+app.use("/order",orderApiObj )
 
 //databaseconnectivity
 const dburl="mongodb+srv://CDB37:CDB37@mongodb.lurqj.mongodb.net/MyAppDatabase?retryWrites=true&w=majority";
